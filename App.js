@@ -45,8 +45,6 @@ const Button = ({ children, className, ...props }) => (
 );
 
 const App = () => {
-  // Your existing calculator code here, but remove the imports at the top
-  // [
 
 const HypocalcemiaCalculator = () => {
   const [calculationType, setCalculationType] = useState(null);
@@ -283,7 +281,7 @@ const HypocalcemiaCalculator = () => {
   );
 };
 
-export default HypocalcemiaCalculator;]
+export default HypocalcemiaCalculator;
 };
 
 export default App;
